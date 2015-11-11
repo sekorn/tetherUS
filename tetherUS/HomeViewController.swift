@@ -14,16 +14,18 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var findTetherButton: UIButton!
     @IBOutlet weak var findFriendsButton: UIButton!
     
+    var originalYPosition: CGFloat!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        originalYPosition = self.avatarImageView.frame.origin.y
+        
         // Do any additional setup after loading the view.
         setupHomePage()
         
         self.findTetherButton.layer.cornerRadius = self.findTetherButton.frame.height/2
         self.findFriendsButton.layer.cornerRadius = self.findFriendsButton.frame.height/2
-        
-        self.animateAvatarImage()
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,10 +38,11 @@ class HomeViewController: UIViewController {
     }
     
     func animateAvatarImage() {
+        self.avatarImageView.frame.origin.y = 0.0
         
         UIView.animateWithDuration(2.0, delay: 0.0, options: .CurveEaseOut, animations: { () -> Void in
             
-            self.avatarImageView.frame.origin.y = self.view.frame.height - self.avatarImageView.frame.height
+            self.avatarImageView.frame.origin.y = self.originalYPosition
             self.avatarImageView.layer.opacity = 1.0
             self.findTetherButton.layer.opacity = 1.0
             self.findFriendsButton.layer.opacity = 1.0
@@ -96,8 +99,9 @@ class HomeViewController: UIViewController {
                     let profilePictureURL = NSURL(string: userProfile)
                     let profilePictureData = NSData(contentsOfURL: profilePictureURL!)
                     
-                    self.avatarImageView.imageAvatar = UIImage(data: profilePictureData!)!
-                    
+                    dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                        self.avatarImageView.imageAvatar = UIImage(data: profilePictureData!)!
+                    })
                     
                     if (profilePictureData != nil) {
                         let profilePictureObject = PFFile(data: profilePictureData!)
@@ -107,7 +111,7 @@ class HomeViewController: UIViewController {
                     myUser.saveInBackgroundWithBlock({ (success:Bool, error:NSError?) -> Void in
                         
                         if (success) {
-                            print("User details are now updated")
+                            self.animateAvatarImage()
                         }
                     })
                 }
