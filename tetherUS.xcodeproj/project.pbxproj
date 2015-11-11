@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D27FEC5B1BED4F8D007D2C1B /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FEC5A1BED4F8D007D2C1B /* AvatarImageView.swift */; };
+		D27FEC5D1BF1435C007D2C1B /* FindTetherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FEC5C1BF1435C007D2C1B /* FindTetherViewController.swift */; };
+		D27FEC5F1BF14871007D2C1B /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FEC5E1BF14871007D2C1B /* FindFriendsViewController.swift */; };
+		D27FEC611BF3A930007D2C1B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FEC601BF3A930007D2C1B /* HomeViewController.swift */; };
 		D2AF53961BDC269A009F7DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF53951BDC269A009F7DE5 /* AppDelegate.swift */; };
 		D2AF53981BDC269A009F7DE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF53971BDC269A009F7DE5 /* ViewController.swift */; };
 		D2AF539B1BDC269A009F7DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF53991BDC269A009F7DE5 /* Main.storyboard */; };
 		D2AF539D1BDC269A009F7DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AF539C1BDC269A009F7DE5 /* Assets.xcassets */; };
 		D2AF53A01BDC269A009F7DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF539E1BDC269A009F7DE5 /* LaunchScreen.storyboard */; };
 		D2AF53AB1BDC269A009F7DE5 /* tetherUSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF53AA1BDC269A009F7DE5 /* tetherUSUITests.swift */; };
+		D2AF53B81BDC26C6009F7DE5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53B51BDC26C6009F7DE5 /* FBSDKCoreKit.framework */; };
+		D2AF53B91BDC26C6009F7DE5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53B61BDC26C6009F7DE5 /* FBSDKLoginKit.framework */; };
+		D2AF53BA1BDC26C6009F7DE5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53B71BDC26C6009F7DE5 /* FBSDKShareKit.framework */; };
+		D2AF53C01BDC26E6009F7DE5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53BC1BDC26E6009F7DE5 /* Bolts.framework */; };
+		D2AF53C11BDC26E6009F7DE5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53BD1BDC26E6009F7DE5 /* Parse.framework */; };
+		D2AF53C21BDC26E6009F7DE5 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53BE1BDC26E6009F7DE5 /* ParseFacebookUtils.framework */; };
+		D2AF53C31BDC26E6009F7DE5 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53BF1BDC26E6009F7DE5 /* ParseFacebookUtilsV4.framework */; };
+		D2AF53C71BDC2879009F7DE5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53C61BDC2879009F7DE5 /* AudioToolbox.framework */; };
+		D2AF53C91BDC2880009F7DE5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53C81BDC2880009F7DE5 /* CFNetwork.framework */; };
+		D2AF53CB1BDC288A009F7DE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53CA1BDC288A009F7DE5 /* CoreGraphics.framework */; };
+		D2AF53CD1BDC2891009F7DE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53CC1BDC2891009F7DE5 /* CoreLocation.framework */; };
+		D2AF53CF1BDC289A009F7DE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53CE1BDC289A009F7DE5 /* QuartzCore.framework */; };
+		D2AF53D11BDC28A3009F7DE5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53D01BDC28A3009F7DE5 /* Security.framework */; };
+		D2AF53D31BDC28AA009F7DE5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53D21BDC28AA009F7DE5 /* StoreKit.framework */; };
+		D2AF53D51BDC28B4009F7DE5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53D41BDC28B4009F7DE5 /* SystemConfiguration.framework */; };
+		D2AF53D71BDC28BD009F7DE5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53D61BDC28BD009F7DE5 /* libz.tbd */; };
+		D2AF53D91BDC28C7009F7DE5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AF53D81BDC28C7009F7DE5 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D27FEC5A1BED4F8D007D2C1B /* AvatarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		D27FEC5C1BF1435C007D2C1B /* FindTetherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTetherViewController.swift; sourceTree = "<group>"; };
+		D27FEC5E1BF14871007D2C1B /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		D27FEC601BF3A930007D2C1B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D2AF53921BDC269A009F7DE5 /* tetherUS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tetherUS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF53951BDC269A009F7DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2AF53971BDC269A009F7DE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +61,24 @@
 		D2AF53A61BDC269A009F7DE5 /* tetherUSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tetherUSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF53AA1BDC269A009F7DE5 /* tetherUSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tetherUSUITests.swift; sourceTree = "<group>"; };
 		D2AF53AC1BDC269A009F7DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AF53B51BDC26C6009F7DE5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D2AF53B61BDC26C6009F7DE5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D2AF53B71BDC26C6009F7DE5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		D2AF53BC1BDC26E6009F7DE5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D2AF53BD1BDC26E6009F7DE5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		D2AF53BE1BDC26E6009F7DE5 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		D2AF53BF1BDC26E6009F7DE5 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		D2AF53C51BDC2718009F7DE5 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		D2AF53C61BDC2879009F7DE5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D2AF53C81BDC2880009F7DE5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D2AF53CA1BDC288A009F7DE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2AF53CC1BDC2891009F7DE5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D2AF53CE1BDC289A009F7DE5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D2AF53D01BDC28A3009F7DE5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D2AF53D21BDC28AA009F7DE5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D2AF53D41BDC28B4009F7DE5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D2AF53D61BDC28BD009F7DE5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D2AF53D81BDC28C7009F7DE5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AF53D91BDC28C7009F7DE5 /* libsqlite3.tbd in Frameworks */,
+				D2AF53D71BDC28BD009F7DE5 /* libz.tbd in Frameworks */,
+				D2AF53D51BDC28B4009F7DE5 /* SystemConfiguration.framework in Frameworks */,
+				D2AF53D31BDC28AA009F7DE5 /* StoreKit.framework in Frameworks */,
+				D2AF53D11BDC28A3009F7DE5 /* Security.framework in Frameworks */,
+				D2AF53CF1BDC289A009F7DE5 /* QuartzCore.framework in Frameworks */,
+				D2AF53CD1BDC2891009F7DE5 /* CoreLocation.framework in Frameworks */,
+				D2AF53CB1BDC288A009F7DE5 /* CoreGraphics.framework in Frameworks */,
+				D2AF53C91BDC2880009F7DE5 /* CFNetwork.framework in Frameworks */,
+				D2AF53C71BDC2879009F7DE5 /* AudioToolbox.framework in Frameworks */,
+				D2AF53B91BDC26C6009F7DE5 /* FBSDKLoginKit.framework in Frameworks */,
+				D2AF53B81BDC26C6009F7DE5 /* FBSDKCoreKit.framework in Frameworks */,
+				D2AF53C31BDC26E6009F7DE5 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				D2AF53C21BDC26E6009F7DE5 /* ParseFacebookUtils.framework in Frameworks */,
+				D2AF53BA1BDC26C6009F7DE5 /* FBSDKShareKit.framework in Frameworks */,
+				D2AF53C01BDC26E6009F7DE5 /* Bolts.framework in Frameworks */,
+				D2AF53C11BDC26E6009F7DE5 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +116,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D27FEC581BED4F4A007D2C1B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF53971BDC269A009F7DE5 /* ViewController.swift */,
+				D27FEC601BF3A930007D2C1B /* HomeViewController.swift */,
+				D27FEC5C1BF1435C007D2C1B /* FindTetherViewController.swift */,
+				D27FEC5E1BF14871007D2C1B /* FindFriendsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D27FEC591BED4F6F007D2C1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D27FEC5A1BED4F8D007D2C1B /* AvatarImageView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		D2AF53891BDC269A009F7DE5 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +156,17 @@
 		D2AF53941BDC269A009F7DE5 /* tetherUS */ = {
 			isa = PBXGroup;
 			children = (
+				D2AF53DA1BDC28D1009F7DE5 /* Frameworks */,
+				D2AF53C41BDC26EB009F7DE5 /* ParseSDK */,
+				D2AF53BB1BDC26CB009F7DE5 /* FacebookSDK */,
+				D27FEC581BED4F4A007D2C1B /* ViewControllers */,
+				D27FEC591BED4F6F007D2C1B /* Views */,
 				D2AF53951BDC269A009F7DE5 /* AppDelegate.swift */,
-				D2AF53971BDC269A009F7DE5 /* ViewController.swift */,
 				D2AF53991BDC269A009F7DE5 /* Main.storyboard */,
 				D2AF539C1BDC269A009F7DE5 /* Assets.xcassets */,
 				D2AF539E1BDC269A009F7DE5 /* LaunchScreen.storyboard */,
 				D2AF53A11BDC269A009F7DE5 /* Info.plist */,
+				D2AF53C51BDC2718009F7DE5 /* Bridging-Header.h */,
 			);
 			path = tetherUS;
 			sourceTree = "<group>";
@@ -94,6 +178,45 @@
 				D2AF53AC1BDC269A009F7DE5 /* Info.plist */,
 			);
 			path = tetherUSUITests;
+			sourceTree = "<group>";
+		};
+		D2AF53BB1BDC26CB009F7DE5 /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF53B51BDC26C6009F7DE5 /* FBSDKCoreKit.framework */,
+				D2AF53B61BDC26C6009F7DE5 /* FBSDKLoginKit.framework */,
+				D2AF53B71BDC26C6009F7DE5 /* FBSDKShareKit.framework */,
+			);
+			name = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		D2AF53C41BDC26EB009F7DE5 /* ParseSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF53BC1BDC26E6009F7DE5 /* Bolts.framework */,
+				D2AF53BD1BDC26E6009F7DE5 /* Parse.framework */,
+				D2AF53BE1BDC26E6009F7DE5 /* ParseFacebookUtils.framework */,
+				D2AF53BF1BDC26E6009F7DE5 /* ParseFacebookUtilsV4.framework */,
+			);
+			name = ParseSDK;
+			sourceTree = "<group>";
+		};
+		D2AF53DA1BDC28D1009F7DE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF53D81BDC28C7009F7DE5 /* libsqlite3.tbd */,
+				D2AF53D61BDC28BD009F7DE5 /* libz.tbd */,
+				D2AF53D41BDC28B4009F7DE5 /* SystemConfiguration.framework */,
+				D2AF53D21BDC28AA009F7DE5 /* StoreKit.framework */,
+				D2AF53D01BDC28A3009F7DE5 /* Security.framework */,
+				D2AF53CE1BDC289A009F7DE5 /* QuartzCore.framework */,
+				D2AF53CC1BDC2891009F7DE5 /* CoreLocation.framework */,
+				D2AF53CA1BDC288A009F7DE5 /* CoreGraphics.framework */,
+				D2AF53C81BDC2880009F7DE5 /* CFNetwork.framework */,
+				D2AF53C61BDC2879009F7DE5 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AF53981BDC269A009F7DE5 /* ViewController.swift in Sources */,
+				D27FEC5B1BED4F8D007D2C1B /* AvatarImageView.swift in Sources */,
 				D2AF53961BDC269A009F7DE5 /* AppDelegate.swift in Sources */,
+				D27FEC5D1BF1435C007D2C1B /* FindTetherViewController.swift in Sources */,
+				D27FEC5F1BF14871007D2C1B /* FindFriendsViewController.swift in Sources */,
+				D27FEC611BF3A930007D2C1B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,10 +451,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tetherUS",
+				);
 				INFOPLIST_FILE = tetherUS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scottkornblatt.tetherUS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tetherUS/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -335,10 +467,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tetherUS",
+				);
 				INFOPLIST_FILE = tetherUS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scottkornblatt.tetherUS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tetherUS/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -385,6 +522,7 @@
 				D2AF53B11BDC269A009F7DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2AF53B21BDC269A009F7DE5 /* Build configuration list for PBXNativeTarget "tetherUSUITests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +531,7 @@
 				D2AF53B41BDC269A009F7DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
