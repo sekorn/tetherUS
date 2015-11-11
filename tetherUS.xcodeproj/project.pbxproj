@@ -121,8 +121,8 @@
 			children = (
 				D2AF53971BDC269A009F7DE5 /* ViewController.swift */,
 				D27FEC601BF3A930007D2C1B /* HomeViewController.swift */,
-				D27FEC5C1BF1435C007D2C1B /* FindTetherViewController.swift */,
 				D27FEC5E1BF14871007D2C1B /* FindFriendsViewController.swift */,
+				D27FEC5C1BF1435C007D2C1B /* FindTetherViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tetherUS/FindFriendsViewController.swift"
-            timestampString = "468963945.363197"
+            timestampString = "468965491.57524"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "findFriends()"
             landmarkType = "5">
          </BreakpointContent>

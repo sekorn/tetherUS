@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
     @IBAction func signInButtonPressed(sender: AnyObject) {
         
-        PFFacebookUtils.logInInBackgroundWithReadPermissions(["public_profile","email","user_about_me"]) { (user:PFUser?, error:NSError?) -> Void in
+        PFFacebookUtils.logInInBackgroundWithReadPermissions(["public_profile","email","user_about_me","user_friends"]) { (user:PFUser?, error:NSError?) -> Void in
             
             if (error != nil) {
                 // display and alert message
