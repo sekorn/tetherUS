@@ -58,7 +58,7 @@ class HomeViewController: UIViewController {
     
     func GetFacebookDetails(user: PFUser) {
         
-        let requestParameters = ["fields": "id, email, first_name, last_name, user_friends"]
+        let requestParameters = ["fields": "id, email, first_name, last_name"]
         let userDetails = FBSDKGraphRequest(graphPath: "me", parameters: requestParameters)
         
         userDetails.startWithCompletionHandler { (connection, result, error:NSError?) -> Void in

@@ -26,7 +26,7 @@ class FindFriendsViewController: UIViewController {
         let myUser = PFUser.currentUser()!
         
         let requestParameters = ["fields": "id, email, first_name, last_name"]
-        let friendDetails = FBSDKGraphRequest(graphPath: "me/friends", parameters: nil)
+        let friendDetails = FBSDKGraphRequest(graphPath: "me/friends", parameters: requestParameters)
         
         friendDetails.startWithCompletionHandler { (connection, result, error:NSError?) -> Void in
             
